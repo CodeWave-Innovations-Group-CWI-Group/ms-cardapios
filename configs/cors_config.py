@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 def setup_cors(app):
 
     origins = [
+        "https://ms-frontend-livid.vercel.app",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "http://localhost:5173",
